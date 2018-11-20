@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Cookies from "js-cookie";
 import SignIn from "./containers/SignIn";
 import Home from "./containers/Home";
 import LogIn from "./containers/LogIn";
